@@ -35,15 +35,24 @@ function stringElement(string, number) {
         }
     }
 }
-console.log(stringElement("algorítimos",8));
+console.log(stringElement("algorítimos", 8));
 
 ////////////////////////////////////////
 
 // Quarta Tarefa
 
+function stringSlicer(string, number) {
+    let = novaString = "";
+    for (let i = 0; i <= number; i++) {
+        if (number > 0) {
+            novaString += string[i].toUpperCase();
+        }
+    }
+    return novaString;
+}
+console.log(stringSlicer("algorítimo", 3));
 
-
-
+//////////////////////////////////////////
 
 
 
