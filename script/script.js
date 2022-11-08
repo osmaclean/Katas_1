@@ -55,7 +55,20 @@ console.log(stringSlicer("algorítimo", 3));
 //////////////////////////////////////////
 
 
+// Quinta Tarefa
 
+function stringRest(string, number) {
+    let = novaString1 = "";
+    for (let i = 4; i <= number; i++) {
+        if (number > 0) {
+            novaString1 += string[i].toUpperCase();
+        }
+    }
+    return novaString1;
+}
+console.log(stringRest("algorítimos", 10));
+
+/////////////////////////////////////////////////////
 
 
 
