@@ -71,13 +71,18 @@ console.log(stringRest("algorítimos", 10));
 /////////////////////////////////////////////////////
 
 
+// Sexta Tarefa
 
-
-
-
-
-
-
+function countVowels(string) {
+    let conta = 0;
+    for (let i = 0; i <= string.length; i++) {
+        if (string[i] == "a" || string[i] == "i") {
+            conta ++;
+        }
+    }
+    return conta;
+}
+console.log(countVowels("abacaxi"));
 
 
 
