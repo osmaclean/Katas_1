@@ -99,8 +99,18 @@ function countTextOccurrences(string, letra) {
 }
 console.log(countTextOccurrences("abacaxi", "a"));
 
+////////////////////////////////////////////////
 
+// Oitava Tarefa 
 
+function textBackwards(string) {
+    let palavra = "";
+    for (let i = string.length; i > 0; i--) {
+            palavra += string[i - 1]        
+    }
+    return palavra;
+}
+console.log(textBackwards("abacaxi"));
 
 
 
