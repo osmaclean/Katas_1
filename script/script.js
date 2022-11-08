@@ -28,10 +28,18 @@ console.log(divisiblesFor(100, 10));
 
 // Terceira Tarefa 
 
+function stringElement(string, number) {
+    for (let i = 0; i <= string.length; i++) {
+        if ([i] == number) {
+            return string[i].toUpperCase();
+        }
+    }
+}
+console.log(stringElement("algorítimos",8));
 
+////////////////////////////////////////
 
-
-
+// Quarta Tarefa
 
 
 
