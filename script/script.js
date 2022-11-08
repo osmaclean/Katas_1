@@ -77,14 +77,27 @@ function countVowels(string) {
     let conta = 0;
     for (let i = 0; i <= string.length; i++) {
         if (string[i] == "a" || string[i] == "i") {
-            conta ++;
+            conta++;
         }
     }
     return conta;
 }
 console.log(countVowels("abacaxi"));
 
+/////////////////////////////////////////////////
 
+// Sétima Tarefa
+
+function countTextOccurrences(string, letra) {
+    let conta1 = 0;
+    for (let i = 0; i <= string.length; i++) {
+        if (string[i] == "a") {
+            conta1++
+        }
+    }
+    return conta1;
+}
+console.log(countTextOccurrences("abacaxi", "a"));
 
 
 
