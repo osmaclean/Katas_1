@@ -127,11 +127,38 @@ function removeBlank(string) {
 }
 console.log(removeBlank("Não ficará espaços em branco"));
 
+//////////////////////////////////////////////////////////
 
+// Décima Tarefa
 
-
-
-
+function encryptText(string) {
+    let crypto = "";
+    for (let i = 0; i < string.length; i++) {
+        if (string[i] == "A") {
+            crypto += "X"
+        } else if (string[i] == "E") {
+            crypto += "Y"
+        } else if (string[i] == "I") {
+            crypto += "W"
+        } else if (string[i] == "O") {
+            crypto += "K"
+        } else if (string[i] == "U") {
+            crypto += "Z"
+        } else if (string[i] == "a") {
+            crypto += "x"
+        } else if (string[i] == "e") {
+            crypto += "y"
+        } else if (string[i] == "i") {
+            crypto += "w"
+        } else if (string[i] == "o") {
+            crypto += "k"
+        } else if (string[i] == "u") {
+            crypto += "z"
+        }
+    }
+    return crypto;
+}
+console.log(encryptText("Uma frase ultra secreta que precisa ser criptografada"));
 
 
 
