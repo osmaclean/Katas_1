@@ -160,7 +160,9 @@ function encryptText(string) {
 }
 console.log(encryptText("Uma frase ultra secreta que precisa ser criptografada"));
 
-
+alert(`Page made by: Lucas Maclean.`);
+alert(`Página de aprendizado e execução de Loops, Condições, Retorno de Valores e Relacionais`);
+alert(`Tudo dentro do "Console"`);
 
 
 
