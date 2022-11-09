@@ -106,13 +106,26 @@ console.log(countTextOccurrences("abacaxi", "a"));
 function textBackwards(string) {
     let palavra = "";
     for (let i = string.length; i > 0; i--) {
-            palavra += string[i - 1]        
+        palavra += string[i - 1]
     }
     return palavra;
 }
 console.log(textBackwards("abacaxi"));
 
+//////////////////////////////////////////////
 
+// Nona Tarefa
+
+function removeBlank(string) {
+    let naoEspaco = "";
+    for (let i = 0; i < string.length; i++) {
+        if (string[i] !== " ") {
+            naoEspaco += string[i]
+        }
+    }
+    return naoEspaco;
+}
+console.log(removeBlank("Não ficará espaços em branco"));
 
 
 
